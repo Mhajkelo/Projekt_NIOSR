@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.000750] (camera_subscriber) JobQueued: {'identifier': 'camera_subscriber', 'dependencies': OrderedDict()}
+[0.000862] (camera_subscriber) JobStarted: {'identifier': 'camera_subscriber'}
+[0.092332] (-) TimerEvent: {}
+[0.195317] (-) TimerEvent: {}
+[0.296564] (-) TimerEvent: {}
+[0.398642] (-) TimerEvent: {}
+[0.500043] (-) TimerEvent: {}
+[0.601080] (-) TimerEvent: {}
+[0.702661] (-) TimerEvent: {}
+[0.803711] (-) TimerEvent: {}
+[0.905976] (-) TimerEvent: {}
+[1.006874] (-) TimerEvent: {}
+[1.107470] (-) TimerEvent: {}
+[1.208347] (-) TimerEvent: {}
+[1.309180] (-) TimerEvent: {}
+[1.409904] (-) TimerEvent: {}
+[1.510611] (-) TimerEvent: {}
+[1.612011] (-) TimerEvent: {}
+[1.713414] (-) TimerEvent: {}
+[1.796083] (camera_subscriber) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/camera_subscriber', 'build', '--build-base', '/home/michal/projekt/camera_subscriber/build/camera_subscriber/build', 'install', '--record', '/home/michal/projekt/camera_subscriber/build/camera_subscriber/install.log', '--single-version-externally-managed'], 'cwd': '/home/michal/projekt/camera_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US', 'USER': 'michal', 'LC_TIME': 'pl_PL.UTF-8', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/michal', 'OLDPWD': '/home/michal/projekt/camera_subscriber/camera_subscriber', 'DESKTOP_SESSION': 'xubuntu', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'pl_PL.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/michal/projekt/camera_subscriber/install:/home/michal/projekt/camera_subscriber/camera_subscriber/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'michal', 'WINDOWID': '62920058', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c2', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models/', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/michal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/michal-VirtualBox:@/tmp/.ICE-unix/845,unix/michal-VirtualBox:/tmp/.ICE-unix/845', 'GDM_LANG': 'en_US', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'LC_ADDRESS': 'pl_PL.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'LC_TELEPHONE': 'pl_PL.UTF-8', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/michal/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/michal', 'AMENT_PREFIX_PATH': '/home/michal/projekt/camera_subscriber/install/camera_subscriber:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pl_PL.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pl_PL.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'pl_PL.UTF-8', 'XDG_VTNR': '7', 'PWD': '/home/michal/projekt/camera_subscriber/build/camera_subscriber', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/michal/projekt/camera_subscriber/build/camera_subscriber/prefix_override:/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages:/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pl_PL.UTF-8', 'LC_PAPER': 'pl_PL.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.813829] (-) TimerEvent: {}
+[1.915950] (-) TimerEvent: {}
+[2.016727] (-) TimerEvent: {}
+[2.118589] (-) TimerEvent: {}
+[2.219287] (-) TimerEvent: {}
+[2.304703] (camera_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[2.307226] (camera_subscriber) StdoutLine: {'line': b'writing build/camera_subscriber/camera_subscriber.egg-info/PKG-INFO\n'}
+[2.308373] (camera_subscriber) StdoutLine: {'line': b'writing dependency_links to build/camera_subscriber/camera_subscriber.egg-info/dependency_links.txt\n'}
+[2.309156] (camera_subscriber) StdoutLine: {'line': b'writing entry points to build/camera_subscriber/camera_subscriber.egg-info/entry_points.txt\n'}
+[2.309684] (camera_subscriber) StdoutLine: {'line': b'writing requirements to build/camera_subscriber/camera_subscriber.egg-info/requires.txt\n'}
+[2.310127] (camera_subscriber) StdoutLine: {'line': b'writing top-level names to build/camera_subscriber/camera_subscriber.egg-info/top_level.txt\n'}
+[2.316785] (camera_subscriber) StdoutLine: {'line': b"reading manifest file 'build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'\n"}
+[2.318754] (camera_subscriber) StdoutLine: {'line': b"writing manifest file 'build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'\n"}
+[2.319296] (camera_subscriber) StdoutLine: {'line': b'running build\n'}
+[2.319468] (-) TimerEvent: {}
+[2.319874] (camera_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[2.320415] (camera_subscriber) StdoutLine: {'line': b'copying camera_subscriber/camera_node.py -> /home/michal/projekt/camera_subscriber/build/camera_subscriber/build/lib/camera_subscriber\n'}
+[2.321171] (camera_subscriber) StdoutLine: {'line': b'running install\n'}
+[2.321955] (camera_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[2.323840] (camera_subscriber) StdoutLine: {'line': b'copying /home/michal/projekt/camera_subscriber/build/camera_subscriber/build/lib/camera_subscriber/camera_node.py -> /home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber\n'}
+[2.325016] (camera_subscriber) StdoutLine: {'line': b'byte-compiling /home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber/camera_node.py to camera_node.cpython-310.pyc\n'}
+[2.326306] (camera_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[2.327372] (camera_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.329758] (camera_subscriber) StdoutLine: {'line': b"removing '/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.330407] (camera_subscriber) StdoutLine: {'line': b'Copying build/camera_subscriber/camera_subscriber.egg-info to /home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber-0.0.0-py3.10.egg-info\n'}
+[2.332598] (camera_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[2.380679] (camera_subscriber) StdoutLine: {'line': b'Installing camera_node script to /home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/camera_subscriber\n'}
+[2.381827] (camera_subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/michal/projekt/camera_subscriber/build/camera_subscriber/install.log'\n"}
+[2.421305] (-) TimerEvent: {}
+[2.467109] (camera_subscriber) CommandEnded: {'returncode': 0}
+[2.520805] (-) TimerEvent: {}
+[2.618492] (camera_subscriber) JobEnded: {'identifier': 'camera_subscriber', 'rc': 0}
+[2.619836] (-) EventReactorShutdown: {}

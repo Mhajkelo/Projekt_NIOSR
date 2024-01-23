@@ -1,0 +1,5 @@
+  File "/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber/camera_node.py", line 36
+    if self.x_y[0] > 100 && self.x_y[0] < 412 && self.x_y[1] < self.window[1]/2:
+                          ^
+SyntaxError: invalid syntax
+

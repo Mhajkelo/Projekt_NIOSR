@@ -1,0 +1,24 @@
+[1.521s] Invoking command in '/home/michal/projekt/camera_subscriber': PYTHONPATH=/home/michal/projekt/camera_subscriber/build/camera_subscriber/prefix_override:/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/camera_subscriber build --build-base /home/michal/projekt/camera_subscriber/build/camera_subscriber/build install --record /home/michal/projekt/camera_subscriber/build/camera_subscriber/install.log --single-version-externally-managed
+[1.963s] running egg_info
+[1.966s] writing build/camera_subscriber/camera_subscriber.egg-info/PKG-INFO
+[1.967s] writing dependency_links to build/camera_subscriber/camera_subscriber.egg-info/dependency_links.txt
+[1.967s] writing entry points to build/camera_subscriber/camera_subscriber.egg-info/entry_points.txt
+[1.968s] writing requirements to build/camera_subscriber/camera_subscriber.egg-info/requires.txt
+[1.968s] writing top-level names to build/camera_subscriber/camera_subscriber.egg-info/top_level.txt
+[1.971s] reading manifest file 'build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'
+[1.973s] writing manifest file 'build/camera_subscriber/camera_subscriber.egg-info/SOURCES.txt'
+[1.974s] running build
+[1.974s] running build_py
+[1.974s] copying camera_subscriber/camera_node.py -> /home/michal/projekt/camera_subscriber/build/camera_subscriber/build/lib/camera_subscriber
+[1.975s] running install
+[1.977s] running install_lib
+[1.980s] copying /home/michal/projekt/camera_subscriber/build/camera_subscriber/build/lib/camera_subscriber/camera_node.py -> /home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber
+[1.984s] byte-compiling /home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber/camera_node.py to camera_node.cpython-310.pyc
+[1.986s] running install_data
+[1.987s] running install_egg_info
+[1.990s] removing '/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[1.991s] Copying build/camera_subscriber/camera_subscriber.egg-info to /home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages/camera_subscriber-0.0.0-py3.10.egg-info
+[1.992s] running install_scripts
+[2.028s] Installing camera_node script to /home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/camera_subscriber
+[2.029s] writing list of installed files to '/home/michal/projekt/camera_subscriber/build/camera_subscriber/install.log'
+[2.105s] Invoked command in '/home/michal/projekt/camera_subscriber' returned '0': PYTHONPATH=/home/michal/projekt/camera_subscriber/build/camera_subscriber/prefix_override:/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/camera_subscriber build --build-base /home/michal/projekt/camera_subscriber/build/camera_subscriber/build install --record /home/michal/projekt/camera_subscriber/build/camera_subscriber/install.log --single-version-externally-managed

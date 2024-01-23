@@ -1,0 +1,91 @@
+[1.374s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.374s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd2b7fe1030>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd2b7f9b010>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd2b7f9b010>>)
+[1.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.434s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.434s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/michal/projekt/camera_subscriber'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.434s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.435s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.452s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'camera_subscriber'
+[1.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.609s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/michal/projekt/camera_subscriber/install
+[1.629s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/michal/projekt/camera_subscriber/camera_subscriber/install
+[1.673s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 384 installed packages in /opt/ros/humble
+[1.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_args' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_target' from command line to 'None'
+[1.816s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[1.817s] Level 5:colcon.colcon_core.verb:set package 'camera_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.817s] DEBUG:colcon.colcon_core.verb:Building package 'camera_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/michal/projekt/camera_subscriber/build/camera_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/michal/projekt/camera_subscriber/install/camera_subscriber', 'merge_install': False, 'path': '/home/michal/projekt/camera_subscriber', 'symlink_install': False, 'test_result_base': None}
+[1.835s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.855s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.855s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/michal/projekt/camera_subscriber' with build type 'ament_python'
+[1.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_subscriber', 'ament_prefix_path')
+[1.878s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/hook/ament_prefix_path.ps1'
+[1.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/hook/ament_prefix_path.dsv'
+[1.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/hook/ament_prefix_path.sh'
+[1.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.356s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/michal/projekt/camera_subscriber'
+[2.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.376s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/michal/projekt/camera_subscriber': PYTHONPATH=/home/michal/projekt/camera_subscriber/build/camera_subscriber/prefix_override:/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/camera_subscriber build --build-base /home/michal/projekt/camera_subscriber/build/camera_subscriber/build install --record /home/michal/projekt/camera_subscriber/build/camera_subscriber/install.log --single-version-externally-managed
+[3.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/michal/projekt/camera_subscriber' returned '0': PYTHONPATH=/home/michal/projekt/camera_subscriber/build/camera_subscriber/prefix_override:/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/camera_subscriber build --build-base /home/michal/projekt/camera_subscriber/build/camera_subscriber/build install --record /home/michal/projekt/camera_subscriber/build/camera_subscriber/install.log --single-version-externally-managed
+[3.429s] Level 1:colcon.colcon_core.environment:checking '/home/michal/projekt/camera_subscriber/install/camera_subscriber' for CMake module files
+[3.429s] Level 1:colcon.colcon_core.environment:checking '/home/michal/projekt/camera_subscriber/install/camera_subscriber' for CMake config files
+[3.430s] Level 1:colcon.colcon_core.environment:checking '/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib'
+[3.431s] Level 1:colcon.colcon_core.environment:checking '/home/michal/projekt/camera_subscriber/install/camera_subscriber/bin'
+[3.431s] Level 1:colcon.colcon_core.environment:checking '/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/pkgconfig/camera_subscriber.pc'
+[3.431s] Level 1:colcon.colcon_core.environment:checking '/home/michal/projekt/camera_subscriber/install/camera_subscriber/lib/python3.10/site-packages'
+[3.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_subscriber', 'pythonpath')
+[3.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/hook/pythonpath.ps1'
+[3.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/hook/pythonpath.dsv'
+[3.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/hook/pythonpath.sh'
+[3.453s] Level 1:colcon.colcon_core.environment:checking '/home/michal/projekt/camera_subscriber/install/camera_subscriber/bin'
+[3.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_subscriber)
+[3.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/package.ps1'
+[3.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/package.dsv'
+[3.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/package.sh'
+[3.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/package.bash'
+[3.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/camera_subscriber/package.zsh'
+[3.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/michal/projekt/camera_subscriber/install/camera_subscriber/share/colcon-core/packages/camera_subscriber)
+[3.477s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.478s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.478s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.505s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.505s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.505s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.518s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michal/projekt/camera_subscriber/install/local_setup.ps1'
+[3.547s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michal/projekt/camera_subscriber/install/_local_setup_util_ps1.py'
+[3.549s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michal/projekt/camera_subscriber/install/setup.ps1'
+[3.570s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michal/projekt/camera_subscriber/install/local_setup.sh'
+[3.571s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/michal/projekt/camera_subscriber/install/_local_setup_util_sh.py'
+[3.571s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michal/projekt/camera_subscriber/install/setup.sh'
+[3.592s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michal/projekt/camera_subscriber/install/local_setup.bash'
+[3.593s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michal/projekt/camera_subscriber/install/setup.bash'
+[3.613s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/michal/projekt/camera_subscriber/install/local_setup.zsh'
+[3.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/michal/projekt/camera_subscriber/install/setup.zsh'
