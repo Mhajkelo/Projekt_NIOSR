@@ -4,25 +4,25 @@ Klikając górną część okna publishera robot zacznie poruszać się do przod
 
 Aby uruchomić projekt należy:
 <p> Uruchomić dwa okna terminala
-  W pierwszym oknie należy:
-    1. Przejść do katalogu "projekt/camera_subscriber"
-    2. Wpisać następujące komendy:
-    - source /opt/ros/humble/setup.bash
-    - source install/setup.bash
-    - export TURTLEBOT3_MODEL=burger
-    - export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:`ros2 pkg \
-      prefix turtlebot3_gazebo \
-      `/share/turtlebot3_gazebo/models/
-    - ros2 launch turtlebot3_gazebo empty_world.launch.py
+ <p> W pierwszym oknie należy:
+   <p> 1. Przejść do katalogu "projekt/camera_subscriber"
+  <p>  2. Wpisać następujące komendy:
+   <p> - source /opt/ros/humble/setup.bash
+   <p> - source install/setup.bash
+  <p>  - export TURTLEBOT3_MODEL=burger
+  <p>  - export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:`ros2 pkg \
+        prefix turtlebot3_gazebo \
+        `/share/turtlebot3_gazebo/models/
+  <p>  - ros2 launch turtlebot3_gazebo empty_world.launch.py
  
-  W drugim oknie terminala należy:
-    1. Prześć do katalogu "projekt/camera_subscriber"
-    2. Wpisać następujące komendy:
-    - source /opt/ros/humble/setup.bash
-    - source install/setup.bash
-    - ros2 run camera_subscriber camera_node
+<p>  W drugim oknie terminala należy:
+<p>    1. Prześć do katalogu "projekt/camera_subscriber"
+ <p>   2. Wpisać następujące komendy:
+ <p>   - source /opt/ros/humble/setup.bash
+ <p>   - source install/setup.bash
+ <p>   - ros2 run camera_subscriber camera_node
 
-Program powinien wyświetlić puste okno publishera oraz wizualizację turtlebot w programie gazebo.
+<p> Program powinien wyświetlić puste okno publishera oraz wizualizację turtlebot w programie gazebo.
 
 
 
