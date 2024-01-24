@@ -3,7 +3,7 @@ Klikając w lewą stronę okna publishera robot zacznie obracać się w lewo, kl
 Klikając górną część okna publishera robot zacznie poruszać się do przodu, w dolną stronę okna, do tyłu.
 
 Aby uruchomić projekt należy:
-Uruchomić dwa okna terminala
+<p> Uruchomić dwa okna terminala
   W pierwszym oknie należy:
     1. Przejść do katalogu "projekt/camera_subscriber"
     2. Wpisać następujące komendy:
